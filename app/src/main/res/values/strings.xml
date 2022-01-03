@@ -1,7 +1,3 @@
 <resources>
     <string name="app_name">UI UX Aplikasi Mobile</string>
-    <string-array name="gender">
-        <item>Laki-Laki</item>
-        <item>Perempuan</item>
-    </string-array>
 </resources>
