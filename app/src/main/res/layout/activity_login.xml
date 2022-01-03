@@ -4,6 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#364741"
     tools:context=".Login">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-107dp"
+        tools:layout_editor_absoluteY="168dp">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/carikost"></ImageView>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radius2"
+                android:drawableLeft="@drawable/user"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:text=" No Handphone Or Email"
+                android:textColor="#fff" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radius2"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:ems="10"
+                android:hint=" Passsword"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FBFBFB"
+                android:textColorHint="#FBFBFB" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#349c85"
+                android:padding="20dp"
+                android:text="login"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginBottom="160dp"
+            android:text="Lupa Password"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="160dp"
+            android:text="DAFTAR"
+            android:textColor="#349C85"
+            android:textSize="14dp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
