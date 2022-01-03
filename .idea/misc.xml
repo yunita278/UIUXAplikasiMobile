@@ -3,16 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
-        <entry key="..\:/Yunita Yani/UIUXAplikasiMobile/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.19583333333333333" />
-        <entry key="..\:/Yunita Yani/UIUXAplikasiMobile/app/src/main/res/drawable/password.xml" value="0.19583333333333333" />
-        <entry key="..\:/Yunita Yani/UIUXAplikasiMobile/app/src/main/res/drawable/square.xml" value="0.19583333333333333" />
-        <entry key="..\:/Yunita Yani/UIUXAplikasiMobile/app/src/main/res/drawable/telepon.xml" value="0.19583333333333333" />
-        <entry key="..\:/Yunita Yani/UIUXAplikasiMobile/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Yunita Yani/UIUXAplikasiMobile/app/src/main/res/layout/activity_main.xml" value="0.22" />
-=======
-        <entry key="..\:/1911500006-Farah Dilah NahdahPertemuan7DPM/UIUXAplikasiMobile/app/src/main/res/layout/activity_main.xml" value="0.22" />
->>>>>>> 3eb2eaabb956f3239ab111d3518c0f689b2dcced
+        <entry key="..\:/1911500006-Farah Dilah NahdahPertemuan7DPM/UIUXAplikasiMobile/app/src/main/res/layout/activity_dasboard.xml" value="0.1796875" />
+        <entry key="..\:/1911500006-Farah Dilah NahdahPertemuan7DPM/UIUXAplikasiMobile/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/1911500006-Farah Dilah NahdahPertemuan7DPM/UIUXAplikasiMobile/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/1911500006-Farah Dilah NahdahPertemuan7DPM/UIUXAplikasiMobile/app/src/main/res/layout/activity_register.xml" value="0.1796875" />
       </map>
     </option>
   </component>
