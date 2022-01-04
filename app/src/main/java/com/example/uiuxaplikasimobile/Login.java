@@ -25,4 +25,9 @@ public class Login extends AppCompatActivity {
         Intent intent2 = new Intent(Login.this, Dasboard.class);
         startActivity(intent2);
     }
+
+    public void Lupa(View view) {
+        Intent intent3 = new Intent(Login.this, Lupa_Password.class);
+        startActivity(intent3);
+    }
 }
