@@ -38,9 +38,9 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/ic_baseline_dehaze_24"/>
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_baseline_dehaze_24" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -179,18 +179,6 @@
                 android:textColor="#fff"
                 android:textSize="13dp" />
 
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="match_parent"
-                android:layout_height="25dp"
-                android:layout_marginLeft="260dp"
-                android:layout_marginTop="880dp"
-                android:layout_marginRight="20dp"
-                android:text="Rp 600.000"
-                android:textColor="#fff"
-                android:textSize="13dp"
-                android:textStyle="bold" />
-
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
@@ -250,7 +238,20 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:background="#364741"
-        android:orientation="vertical"></LinearLayout>
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="880dp"
+            android:layout_marginRight="20dp"
+            android:text="Rp 600.000"
+            android:textColor="#fff"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView4"
