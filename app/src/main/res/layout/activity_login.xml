@@ -36,10 +36,11 @@
                 android:background="@drawable/radius2"
                 android:drawableLeft="@drawable/user"
                 android:ems="10"
+                android:hint=" No Handphone Or Email"
                 android:inputType="textPersonName"
                 android:padding="20dp"
-                android:text=" No Handphone Or Email"
-                android:textColor="#fff" />
+                android:textColor="#fff"
+                android:textColorHint="#FFFFFF" />
 
             <EditText
                 android:id="@+id/editTextTextPassword2"
@@ -64,7 +65,8 @@
                 android:backgroundTint="#349c85"
                 android:padding="20dp"
                 android:text="login"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:onClick="tampil"/>
 
 
         </LinearLayout>
@@ -93,6 +95,7 @@
             android:text="DAFTAR"
             android:textColor="#349C85"
             android:textSize="14dp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold|italic"
+            android:onClick="login"/>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

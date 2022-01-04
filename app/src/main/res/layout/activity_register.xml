@@ -196,13 +196,15 @@
                     android:backgroundTint="#364741"
                     android:padding="10dp"
                     android:text="Daftar"
-                    android:textSize="18dp" />
+                    android:textSize="18dp"
+                    android:onClick="back"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:background="#364741"></LinearLayout>
+
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="250dp"
@@ -214,7 +216,8 @@
                 android:gravity="center_horizontal"
                 android:text=" PENDAFTARAN AKUN"
                 android:textColor="#ACCDB8"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:onClick="back"/>
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

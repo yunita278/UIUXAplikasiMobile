@@ -70,7 +70,7 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="360dp"
+                android:layout_width="match_parent"
                 android:layout_height="25dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="293dp"
@@ -81,14 +81,14 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="match_parent"
+                android:layout_width="300dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="300dp"
+                android:layout_marginLeft="260dp"
                 android:layout_marginTop="293dp"
                 android:layout_marginRight="20dp"
                 android:text="Rp 500.000"
-                android:textSize="13dp"
                 android:textColor="#fff"
+                android:textSize="13dp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -114,8 +114,8 @@
                 android:layout_marginTop="575dp"
                 android:layout_marginRight="200dp"
                 android:text="Kost yoongi"
-                android:textSize="20dp"
                 android:textColor="#fff"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -133,12 +133,12 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
-                android:layout_marginLeft="300dp"
+                android:layout_marginLeft="260dp"
                 android:layout_marginTop="597dp"
                 android:layout_marginRight="20dp"
                 android:text="Rp 450.000"
-                android:textSize="13dp"
                 android:textColor="#fff"
+                android:textSize="13dp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -183,7 +183,7 @@
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
-                android:layout_marginLeft="300dp"
+                android:layout_marginLeft="260dp"
                 android:layout_marginTop="880dp"
                 android:layout_marginRight="20dp"
                 android:text="Rp 600.000"
@@ -233,7 +233,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
-                android:layout_marginLeft="300dp"
+                android:layout_marginLeft="260dp"
                 android:layout_marginTop="1110dp"
                 android:layout_marginRight="20dp"
                 android:text="Rp 300.000"
@@ -246,9 +246,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="840dp"
-        android:background="#364741"></LinearLayout>
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="#364741"
+        android:orientation="vertical"></LinearLayout>
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
