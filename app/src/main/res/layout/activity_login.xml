@@ -11,21 +11,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-107dp"
-        tools:layout_editor_absoluteY="168dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
-            android:layout_width="600dp"
-            android:layout_height="460dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="150dp"
             android:layout_marginRight="15dp"
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:src="@drawable/carikost"></ImageView>
 
             <EditText
@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/radius"
+                android:background="@drawable/radius2"
                 android:drawableLeft="@drawable/user"
                 android:ems="10"
                 android:hint=" No Handphone Or Email"
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/radius"
+                android:background="@drawable/radius2"
                 android:drawableLeft="@drawable/ic_baseline_lock_24"
                 android:ems="10"
                 android:hint=" Passsword"
@@ -78,7 +78,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="21dp"
-            android:layout_marginBottom="193dp"
+            android:layout_marginBottom="160dp"
+            android:onClick="Lupa"
             android:text="Lupa Password"
             android:textColor="#FFFFFF"
             android:textSize="14dp"
@@ -91,21 +92,11 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="21dp"
-            android:layout_marginBottom="193dp"
+            android:layout_marginBottom="160dp"
             android:onClick="login"
             android:text="DAFTAR"
             android:textColor="#349C85"
             android:textSize="14dp"
             android:textStyle="bold|italic" />
-
-        <ImageView
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="39dp"
-            android:layout_marginBottom="130dp"
-            android:background="@drawable/radius2"
-            android:cropToPadding="false"></ImageView>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
