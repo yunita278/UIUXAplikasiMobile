@@ -16,9 +16,9 @@
 
         <LinearLayout
             android:layout_width="400dp"
-            android:layout_height="400dp"
+            android:layout_height="450dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="50dp"
             android:layout_marginRight="15dp"
             android:gravity="center_horizontal"
             android:orientation="vertical">
@@ -78,7 +78,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="21dp"
-            android:layout_marginBottom="160dp"
+            android:layout_marginBottom="210dp"
             android:onClick="Lupa"
             android:text="Lupa Password"
             android:textColor="#FFFFFF"
@@ -92,7 +92,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="21dp"
-            android:layout_marginBottom="160dp"
+            android:layout_marginBottom="210dp"
             android:onClick="login"
             android:text="DAFTAR"
             android:textColor="#349C85"
