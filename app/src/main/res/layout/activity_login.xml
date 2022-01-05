@@ -99,7 +99,7 @@
             android:textSize="14dp"
             android:textStyle="bold|italic" />
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imageView2"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -107,33 +107,33 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="33dp"
             android:layout_marginBottom="131dp"
-            android:background="@drawable/radius2"></ImageView>
+            android:src="@drawable/google"></de.hdodenhof.circleimageview.CircleImageView>
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="133dp"
+            android:layout_marginStart="135dp"
             android:layout_marginBottom="131dp"
-            android:background="@drawable/radius2"></ImageView>
+            android:src="@drawable/facebook"></de.hdodenhof.circleimageview.CircleImageView>
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:src="@drawable/instagram"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="236dp"
-            android:layout_marginBottom="131dp"
-            android:background="@drawable/radius2"></ImageView>
+            android:layout_marginStart="235dp"
+            android:layout_marginBottom="131dp"></de.hdodenhof.circleimageview.CircleImageView>
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:src="@drawable/twitter"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="33dp"
-            android:layout_marginBottom="131dp"
-            android:background="@drawable/radius2"></ImageView>
+            android:layout_marginBottom="131dp"></de.hdodenhof.circleimageview.CircleImageView>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
