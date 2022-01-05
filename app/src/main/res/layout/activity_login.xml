@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/radius2"
+                android:background="@drawable/radius"
                 android:drawableLeft="@drawable/user"
                 android:ems="10"
                 android:hint=" No Handphone Or Email"
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/radius2"
+                android:background="@drawable/radius"
                 android:drawableLeft="@drawable/ic_baseline_lock_24"
                 android:ems="10"
                 android:hint=" Passsword"
@@ -98,5 +98,42 @@
             android:textColor="#349C85"
             android:textSize="14dp"
             android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginBottom="131dp"
+            android:background="@drawable/radius2"></ImageView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="133dp"
+            android:layout_marginBottom="131dp"
+            android:background="@drawable/radius2"></ImageView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="236dp"
+            android:layout_marginBottom="131dp"
+            android:background="@drawable/radius2"></ImageView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="131dp"
+            android:background="@drawable/radius2"></ImageView>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
